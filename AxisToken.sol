@@ -753,7 +753,7 @@ contract ERC20Burnable is ERC20, MinterRole {
  * @dev Implementation of the New AXIS Token.
  */
 contract AxisToken is ERC20Detailed, ERC20Capped, ERC20Burnable, ERC20Pausable {
-    string  private constant  TOKEN_NAME     = "AXIS ";
+    string  private constant  TOKEN_NAME     = "AXIS";
     string  private constant TOKEN_SYMBOL   = "AXIS";
     uint private constant INITIAL_TOKENS = 24000000;
     uint8 private constant DECIMALS = 18;
